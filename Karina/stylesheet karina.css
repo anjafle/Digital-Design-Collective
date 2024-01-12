@@ -1,0 +1,96 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-frame {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #293B4A;
+    padding: 1em;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    margin: 0 1em;
+    border-radius: 50px;
+
+
+}
+
+
+nav a:hover {
+    font-weight: bolder;
+    color: white;
+}
+
+.information {
+    flex: 1;
+    padding-top: 310px;
+    padding-right: 140px;
+    padding-left: 120px;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px; 
+  }
+
+.image {
+    flex: 1;
+    text-align: right;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+    font-family: Helvetica, sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    size: 48;
+}
+
+h2 {
+    font-weight: lighter;
+}
+
+h3,
+p {
+    font-size: 16;
+    font-weight: lighter;
+}
+
+.email-link {
+    font-size: 20px;
+}
+
+a {
+    color: #222222;
+    font-weight: bold;
+    font-size: 16;
+    text-align: center;
+}
